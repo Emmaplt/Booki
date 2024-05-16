@@ -25,7 +25,7 @@ body {
     box-sizing: border-box;
 }
 
-/* header */
+/**** header ****/
 
 header {
     display: flex;
@@ -52,7 +52,10 @@ nav a:hover {
     padding-top: 35px;
 }
 
-/* Fin header */
+/**** Fin header ****/
+/**** Premier bloc ****/
+
+/* titre de page */
 
 .titre-page h1 {
     font-size: 22px;
@@ -61,6 +64,66 @@ nav a:hover {
 .titre-page p {
     font-size: 16px;
 }
+
+/* barre de recherche */
+
+form {
+    display: flex;
+    width: 377px;
+    height: 49px;
+    border: #F2F2F2;
+}
+
+form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 49px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #F2F2F2;
+}
+
+form input {
+    font-size: 18px;
+    border-color: #F2F2F2;
+    border-style: solid;
+}
+
+form button {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bolder;
+    border: #0065FC;
+    width: 132px;
+    height: 49px;
+    padding: 15px 16px 15px 16px;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: black;
+    font-weight: bolder;
+}
+
+/* information barre */
+
+.info-barre {
+    display: flex;
+    align-items: center;
+}
+
+.info-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.info-barre p {
+    padding-left: 10px;
+}
+
+/**** Fin premier bloc ****/
 
 a {
     color: inherit;
@@ -158,10 +221,10 @@ a {
     margin-bottom: 5px;
 }
 
-/* footer */
+/**** footer ****/
 
-footer{
-    display:flex;
+footer {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
@@ -170,41 +233,28 @@ footer{
     background-color: #F2F2F2;
 }
 
-footer li{
+footer li {
     list-style-type: none;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-footer ul{
+footer ul {
     padding: 0px;
 }
 
-footer h1{
+footer h1 {
     font-size: 18px;
 }
 
-.hebergement {
+.hebergement,
+.a-propos,
+.assistance {
     width: 446.67px;
     height: 163px;
     padding-left: 20px;
     gap: 15px;
 }
-
-.a-propos {
-    width: 446.67px;
-    height: 163px;
-    padding-left: 20px;
-    gap: 15px;
-}
-
-.assistance{
-    width: 446.67px;
-    height: 163px;
-    padding-left: 20px;
-    gap: 15px;
-}
-
 
 /* fin footer */
 
