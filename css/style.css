@@ -25,6 +25,18 @@ body {
     box-sizing: border-box;
 }
 
+/* color icone */
+
+.black {
+    color: black;
+}
+
+/* size icone */
+
+.size {
+    font-size: 13px;
+}
+
 /**** header ****/
 
 header {
@@ -32,7 +44,7 @@ header {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 1440px;
+    max-width: 1340px;
     height: 79px;
 }
 
@@ -57,11 +69,11 @@ nav a:hover {
 
 /* titre de page */
 
-.titre-page h1 {
+.page-title h1 {
     font-size: 22px;
 }
 
-.titre-page p {
+.page-title p {
     font-size: 16px;
 }
 
@@ -105,18 +117,29 @@ form button {
 input::placeholder {
     color: black;
     font-weight: bolder;
+    text-align: center;
 }
+
+/* filtres */
+
+
 
 /* information barre */
 
 .info-barre {
     display: flex;
     align-items: center;
+    padding-top: 10px;
 }
 
-.info-icon {
+.info-barre i {
     width: 24px;
     height: 24px;
+    border : 2px #F2F2F2 solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-barre p {
