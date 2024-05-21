@@ -164,7 +164,7 @@ input::placeholder {
 .info-barre i {
     width: 24px;
     height: 24px;
-    border : 2px #F2F2F2 solid;
+    border: 2px #F2F2F2 solid;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -276,7 +276,7 @@ a {
     padding-top: 5px;
 }
 
-.hebergements-bottom h2{
+.hebergements-bottom h2 {
     font-size: 18px;
     padding-top: 10px;
 }
