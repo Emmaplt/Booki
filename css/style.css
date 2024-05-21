@@ -122,7 +122,32 @@ input::placeholder {
 
 /* filtres */
 
+.filtre {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 758px;
+    height: 50px;
+}
 
+.filtre h2 {
+    font-size: 18px;
+}
+
+.filtre button {
+    background-color: white;
+    border: 2px #F2F2F2 solid;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bolder;
+    padding: 10px 15px 10px 15px;
+}
+
+.icone-button {
+    padding-right: 15px;
+    width: 22px;
+    height: 22px;
+}
 
 /* information barre */
 
