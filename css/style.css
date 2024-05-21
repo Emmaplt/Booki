@@ -149,6 +149,10 @@ input::placeholder {
     height: 22px;
 }
 
+.filtre button:hover {
+    background-color: #DEEBFF;
+}
+
 /* information barre */
 
 .info-barre {
@@ -224,6 +228,60 @@ a {
     width: 65%;
 }
 
+.hebergements-cards a {
+    width: 30%;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.hebergement-title h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.hebergements-bottom h2{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -268,6 +326,10 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+/**** activites à marseille ****/
+
+
 
 /**** footer ****/
 
