@@ -59,7 +59,6 @@ header a {
 }
 
 nav a:hover {
-    color: #0065FC;
     border-top: 3px #0065FC solid;
     padding-top: 35px;
 }
@@ -173,7 +172,7 @@ input::placeholder {
 
 .info-barre p {
     padding-left: 10px;
-} 
+}
 
 a {
     color: inherit;
