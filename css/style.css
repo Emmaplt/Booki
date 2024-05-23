@@ -173,9 +173,7 @@ input::placeholder {
 
 .info-barre p {
     padding-left: 10px;
-}
-
-/**** Fin premier bloc ****/
+} 
 
 a {
     color: inherit;
@@ -365,6 +363,7 @@ a {
     padding-left: 20px;
 }
 
+/***** Fin premier bloc *****/
 
 /**** footer ****/
 
