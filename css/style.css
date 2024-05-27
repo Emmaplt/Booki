@@ -49,7 +49,7 @@ header {
 }
 
 header img {
-    width: 61.09px;
+    width: 61px;
     height: 19px;
 }
 
@@ -123,14 +123,18 @@ input::placeholder {
 
 .filtres {
     display: flex;
-    justify-content: space-between;
     padding-top: 20px;
-    width: 758px;
-    height: 50px;
+    width: 100%;
 }
 
 .filtres h2 {
     font-size: 18px;
+    padding-right: 20px;
+}
+
+.filtre .button-filtres {
+    display: flex;
+    justify-content: space-between;
 }
 
 .filtres button {
@@ -140,11 +144,11 @@ input::placeholder {
     font-size: 17px;
     font-weight: bolder;
     padding: 10px 15px 10px 15px;
+    margin-right: 20px;
 }
 
 .icone-button {
     padding-right: 15px;
-    width: 22px;
     height: 22px;
 }
 
@@ -348,11 +352,11 @@ a {
     width: 297px;
     height: 439px;
     border-radius: 20px;
-    border: 2px #F2F2F2 solid;
+    box-shadow: 0px 3px 15px 0px #0000001A;
 }
 
 .activites img {
-    width: 297px;
+    width: 100%;
     height: 380px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -372,7 +376,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    width: 1340px;
+    width: 100%;
     height: 163px;
     background-color: #F2F2F2;
 }
@@ -394,7 +398,7 @@ footer h2 {
 .hebergement,
 .a-propos,
 .assistance {
-    width: 446.67px;
+    width: 30%;
     height: 163px;
     padding-left: 20px;
     gap: 15px;
@@ -407,8 +411,14 @@ footer h2 {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    body {
-        background-color: red;
+
+    .filtres {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .filtres button {
+        flex-direction: row;
     }
 
     .hebergements-and-populaires {
@@ -440,6 +450,24 @@ footer h2 {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activites-card {
+        justify-content: space-between;
+    }
+    
+    .activites {
+        width: 193px;
+        height: 270px;
+        border-radius: 20px;
+        box-shadow: 0px 3px 15px 0px #0000001A;
+    }
+
+    .activites img {
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
 }
 
