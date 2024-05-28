@@ -428,7 +428,7 @@ footer h2 {
     .hebergements-cards .card-title {
         font-size: 14px;
     }
-    
+
     .hebergements-cards .card-subtitle {
         font-size: 13px;
     }
@@ -516,6 +516,41 @@ footer h2 {
 
     /**** premier bloc ****/
 
+    .page-title h1, p {
+        padding-left: 30px;
+    }
+
+    /**** barre de recherche ****/
+
+
+
+    /**** filtres ****/
+
+    .filtres {
+        width: 90%;
+    }
+
+    .filtres h2 {
+        padding-left: 30px;
+    }
+
+    .filtres button {
+        width: 46%;
+        margin:0%;
+    }
+
+    .filtre .button-filtres {
+
+    }
+
+    /**** info barre ****/
+
+    .info-barre {
+        padding-left: 30px;
+    }
+
+    /**** hebergement and populaires ****/
+
     .hebergements-and-populaires section {
         border-radius: 0px;
         padding: 0%;
@@ -525,14 +560,19 @@ footer h2 {
         background-color: white;
     }
 
-    .hebergements-title h2 , .populaires-title h2, .hebergements-bottom p {
+    .hebergements-title h2,
+    .populaires-title h2,
+    .hebergements-bottom p {
         padding-left: 30px;
     }
 
     .populaires-title i {
         padding-right: 30px;
     }
-    
+
+    .hebergements-cards .card-subtitle, .populaires-cards .card-subtitle {
+        padding: 0%;
+    }
 
     /**** populaires ****/
 
@@ -561,7 +601,7 @@ footer h2 {
     /**** hebergement ****/
 
     .hebergements {
-        order : 2;
+        order: 2;
         height: 1500px;
     }
 
