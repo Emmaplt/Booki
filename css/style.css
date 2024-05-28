@@ -82,7 +82,6 @@ form {
     display: flex;
     width: 100%;
     height: 49px;
-    border: #F2F2F2;
 }
 
 form label {
@@ -90,24 +89,27 @@ form label {
     justify-content: center;
     align-items: center;
     width: 50px;
-    height: 49px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
 }
 
 form input {
     font-size: 18px;
-    border-color: #F2F2F2;
-    border-style: solid;
+    border: transparent;
+    border-top: 2px #F2F2F2 solid;
+    border-bottom: 2px #F2F2F2 solid;
 }
 
-form button {
+form .loupe-button {
+    display:none;
+}
+
+form .rechercher-button {
     background-color: #0065FC;
     color: white;
     font-weight: bolder;
     border: #0065FC;
     width: 132px;
-    height: 49px;
     padding: 15px 16px 15px 16px;
     border-radius: 0px 15px 15px 0px;
     font-size: 18px;
@@ -522,7 +524,29 @@ footer h2 {
 
     /**** barre de recherche ****/
 
+    form {
+        padding-left: 30px;
+        width: 90%;
+    }
 
+    form .rechercher-button {
+        display : none;
+    }
+
+    form .loupe-button {
+        display: inline-block;
+        background-color: #0065FC;
+        border: #0065FC;
+        width: 49px;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+}
+    }
+
+    form .loupe-button i {
+        color: white;
+        font-size: 17px;
+    }
 
     /**** filtres ****/
 
@@ -537,10 +561,6 @@ footer h2 {
     .filtres button {
         width: 46%;
         margin:0%;
-    }
-
-    .filtre .button-filtres {
-
     }
 
     /**** info barre ****/
