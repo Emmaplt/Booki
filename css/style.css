@@ -489,31 +489,32 @@ footer h2 {
     /**** header ****/
 
     header {
-        justify-content: space-around;
         flex-direction: column;
         align-content: center;
-        height: 115px;
-    }
-
-    header img {
-        padding-top: 10px;
-    }
-
-    .main-nav {
+        height: 2%;
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        border-bottom: 1px #F2F2F2 solid;
+        margin-top: 30px;
     }
 
     .main-nav a {
+        display: flex;
+        justify-content: center;
         margin: 0%;
+        height: 36px;
+        width: 100%;
+    }
+
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 3px #F2F2F2 solid;
+        width: 100%;
     }
 
     .main-nav a:hover {
-        border-top: 0px;
-        padding-top: none;
+        border-top: none;
+        padding-top: 0%;
+        border-bottom: 3px #0065FC solid;
     }
 
     /**** premier bloc ****/
