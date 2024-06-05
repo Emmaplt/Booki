@@ -117,23 +117,18 @@ input::placeholder {
 }
 
 /* filtres */
-.filtres {
+.filters {
     display: flex;
     padding-top: 20px;
     width: 100%;
 }
 
-.filtres h2 {
+.filters h2 {
     font-size: 1.125em;
     padding-right: 20px;
 }
 
-.filtre .button-filtres {
-    display: flex;
-    justify-content: space-between;
-}
-
-.filtres button {
+.filters button {
     background-color: white;
     border: 2px var(--main-bg-color) solid;
     border-radius: 25px;
@@ -148,18 +143,18 @@ input::placeholder {
     height: 22px;
 }
 
-.filtres button:hover {
+.filters button:hover {
     background-color: var(--filter-bg-color);
 }
 
 /* information barre */
-.info-barre {
+.info-bar {
     display: flex;
     align-items: center;
     padding-top: 10px;
 }
 
-.info-barre i {
+.info-bar i {
     width: 24px;
     height: 24px;
     border: 2px var(--main-bg-color) solid;
@@ -169,7 +164,7 @@ input::placeholder {
     align-items: center;
 }
 
-.info-barre p {
+.info-bar p {
     padding-left: 10px;
 }
 
@@ -386,9 +381,9 @@ footer h2 {
     font-size: 1.125em;
 }
 
-.hebergement,
-.a-propos,
-.assistance {
+.hebergement-list,
+.a-propos-list,
+.assistance-list {
     width: 30%;
 }
 
@@ -399,13 +394,14 @@ footer h2 {
 @media (max-width: 1024px) {
 
     /* filtres */
-    .filtres {
+    .filters {
         flex-direction: column;
         width: 100%;
     }
 
-    .filtres button {
+    .filters button {
         flex-direction: row;
+        margin-right: 10px;
     }
 
     /* hebergements-and-populaires */
@@ -537,21 +533,21 @@ footer h2 {
     }
 
     /* filtres */
-    .filtres {
+    .filters {
         width: 100%;
     }
 
-    .filtres h2 {
+    .filters h2 {
         padding-left: 30px;
     }
 
-    .filtres button {
+    .filters button {
         width: 45%;
         margin: 2%;
     }
 
     /* info barre */
-    .info-barre {
+    .info-bar {
         padding-left: 30px;
     }
 
@@ -655,9 +651,9 @@ footer h2 {
         flex-direction: column;
     }
 
-    .hebergement,
-    .a-propos,
-    .assistance {
+    .hebergement-list,
+    .a-propos-list,
+    .assistance-list {
         width: 90%;
         padding-left: 10%;
     }
